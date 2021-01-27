@@ -52,6 +52,7 @@ def markQuiz(q1, q2, q3, q4):
     scoreCalc = int((score/4 * 100))
 
     #display score
+    print('You got ' + str(score) + "/4")
     print("Your score is " + str(scoreCalc) + "%")
 
     scoreFeedback(scoreCalc)
